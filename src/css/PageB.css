@@ -1,0 +1,10 @@
+.flashcard-container.pageB {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  

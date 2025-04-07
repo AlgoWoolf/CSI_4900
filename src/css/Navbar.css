@@ -1,0 +1,32 @@
+/* Styles the overall navigation container */
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+/* Resets list styling and sets up horizontal layout */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+/* Removes default margin for list items */
+nav li {
+  margin: 0;
+}
+
+/* Styles the navigation links */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for links */
+nav a:hover {
+  color: #f0f0f0;
+}
